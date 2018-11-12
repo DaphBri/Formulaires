@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Les formulaires</title>
+  <link rel="stylesheet" href="css/normalise.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="myform">
+        <img src="img/birds-blue-cut-glass-2112753_960_720.png" alt="google_qwant">
+        <form action="" method="GET">
+<fieldset>
+    <legend>Information génégale</legend>
+
+
+            <div>
+                <label for="name">Nom d'utilisateur <span>*</span></label>
+                <input type="text" name="name" id="name" autofocus placeholder="Nickname" required>
+            </div>
+            <div>
+                <label for="email">Email <span>*</span></label>
+                <input type="email" name="email" id="email" placeholder="nom.prenom@telenet.be" required>
+            </div>
+            <div>
+                <label for="mdp">Password <span>*</span></label>
+                <input type="password" name="mdp" id="mdp" placeholder="Votre mot de passe" required>
+            </div>
+            <div>
+                <label for="Search">Search</label>
+                <input type="password" name="Search" id="Search" placeholder="What do you wanna search">
+            </div>
+            <div>
+                <label for="tel">Telephone</label>
+                <input type="tel" name="tel" id="tel" placeholder="+32">
+            </div>
+            <div>
+                <div>Votre sexe:</div>    
+                <label for="Homme">Masculin</label>
+                <input type="radio" name="sexe" id="Homme">
+                <label for="Femme">Femme</label>
+                <input type="radio" name="sexe" id="Femme">
+                <label for="Autre">Autre</label>
+                <input type="radio" name="sexe" id="Autre">
+            </div>
+
+            <div>
+                    <div>Vous aimez:</div>    
+                    <label for="Legumes">Les légumes</label>
+                    <input type="checkbox" name="miam" id="Legumes">
+                    <label for="Meat">La viande </label>
+                    <input type="checkbox" name="miam" id="Meat">
+                    <label for="Fruits">Fruits </label>
+                    <input type="checkbox" name="miam" id="Fruits">
+                </div>
+
+                <div>
+                    <label for="country">Votre Pays</label>
+                    <select name="country" id="country" multiple>
+                        <optgroup label="Europe">
+                            <option value="BE" selected>Belgique</option>
+                            <option value="FR">France</option>
+                            <option value="EN">England</option>
+                        </optgroup>
+                        <optgroup label="Afrique">
+                                <option value="NI">Nigeria</option>
+                                <option value="B">Benin</option>
+                                <option value="MA">Madagascar</option>
+                            </optgroup>
+                        
+                    </select>
+                </div>
+
+            <div>
+                <label for="msg">Votre message</label>
+                <textarea name="msg" id="msg" placeholder="How are you?"></textarea>
+            </div>
+
+            <div>
+                <label for="color">Choisisser votre couleur</label>
+                <input type="color" name="color" id="color">
+            </div>
+            <div>
+                <label for="range">de 1 à 10 :</label>
+                <input type="range" name="range" id="range">
+            </div>
+            <div>
+                <label for="date">Agenda</label>
+                <input type="date" name="date" id="date">
+            </div>
+
+            <div>
+                <label for="file">Envoyer un fichier</label>
+                <input type="file" name="file" id="file">
+            </div>
+
+            <div>
+                <label for="url">URL de votre web</label>
+                <input type="url" name="url" id="tel" value="http://">
+            </div>
+
+
+            <div>
+                <input type="submit" name="envoyer" id="envoyer" value="Envoyer">
+            </div>
+            <p><span>* Required</span></p>
+        </fieldset>
+        </form>
+    </div>
+
+</body>
+</html>

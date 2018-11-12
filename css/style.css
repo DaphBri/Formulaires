@@ -1,0 +1,60 @@
+body {
+    background: url(../img/water-1330252__340.jpg) no-repeat center/cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.myform {
+    width: 500px;
+    margin: 180px auto;
+    background: #fff;
+    position: relative;
+    padding: 100px 50px 50px;
+    
+}
+
+img {
+    width: 375px;
+    position: absolute;
+    top: -63px;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea, select {
+    outline: none;
+    border: 1px solid #666;
+    border-radius: 3px;
+    padding: 10px;
+    width:100%;
+    transition: 0.3 all ease-in-out;
+}
+input:focus,  textarea:focus {
+    border: 1px solid crimson;
+}
+div {
+    margin-bottom: 15px;
+}
+input[type="submit"] {
+    cursor: pointer;
+}
+span {
+    color: crimson;
+}
+textarea {
+    height: 150px;
+    resize: vertical;
+    
+}
+
+#Homme, #Femme, #Autre {
+    width: auto;
+}
+#Legumes, #Meat, #Fruits {
+    width: auto;
+}
